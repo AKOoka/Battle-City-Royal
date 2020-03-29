@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{905B6B3B-33B1-49FB-B691-AE30F88CB4F5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BattleCityRoyalJS-v2/Game1.cs">
+    <Files>
+      <File FileName="BattleCityRoyalJS-v2/Game1.cs" Line="59" Column="39" />
+      <File FileName="BattleCityRoyalJS-v2/Orientation.cs" Line="4" Column="39" />
+      <File FileName="BattleCityRoyalJS-v2/Tank.cs" Line="100" Column="58" />
+      <File FileName="BattleCityRoyalJS-v2/TankAIController.cs" Line="4" Column="39" />
+      <File FileName="BattleCityRoyalJS-v2/TankController.cs" Line="3" Column="39" />
+      <File FileName="BattleCityRoyalJS-v2/TankPlayerController.cs" Line="5" Column="39" />
+      <File FileName="BattleCityRoyalJS-v2/Tile.cs" Line="10" Column="22" />
+      <File FileName="BattleCityRoyalJS-v2/Animation.cs" Line="42" Column="9" />
+      <File FileName="BattleCityRoyalJS-v2/TankStupidAIController.cs" Line="24" Column="17" />
+      <File FileName="BattleCityRoyalJS-v2/AABB.cs" Line="18" Column="10" />
+      <File FileName="BattleCityRoyalJS-v2/DebugDrawer.cs" Line="58" Column="131" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BattleCityRoyalJS-v2" expanded="True">
+            <Node name="BattleCityRoyalJS-v2.Desktop" expanded="True">
+              <Node name="Content" expanded="True" />
+              <Node name="TankAIController.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BattleCityRoyalJS-v2.Desktop PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

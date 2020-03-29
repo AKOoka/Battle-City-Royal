@@ -1,0 +1,4 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"/home/akooka/Code/BattleCityRoyalJS-v2/BattleCityRoyalJS-v2/Content/font.spritefont","/home/akooka/Code/BattleCityRoyalJS-v2/BattleCityRoyalJS-v2/Content/bin/DesktopGL/font.xnb","FontDescriptionProcessor","SpriteFontContent",2009,21521,0.288437
+"/home/akooka/Code/BattleCityRoyalJS-v2/BattleCityRoyalJS-v2/Content/NES - Battle City JPN - General Sprites-edited.png","/home/akooka/Code/BattleCityRoyalJS-v2/BattleCityRoyalJS-v2/Content/bin/DesktopGL/sprite.xnb","TextureProcessor","Texture2DContent",436846,409685,0.0394
+"/home/akooka/Code/BattleCityRoyalJS-v2/BattleCityRoyalJS-v2/Content/texture1x1.png","/home/akooka/Code/BattleCityRoyalJS-v2/BattleCityRoyalJS-v2/Content/bin/DesktopGL/texture1x1.xnb","TextureProcessor","Texture2DContent",545,89,0.00082

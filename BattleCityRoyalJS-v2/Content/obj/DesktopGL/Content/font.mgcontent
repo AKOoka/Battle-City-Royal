@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>/home/akooka/Code/BattleCityRoyalJS-v2/BattleCityRoyalJS-v2/Content/font.spritefont</SourceFile>
+  <SourceTime>2020-03-28T04:54:29.4706158+02:00</SourceTime>
+  <DestFile>/home/akooka/Code/BattleCityRoyalJS-v2/BattleCityRoyalJS-v2/Content/bin/DesktopGL/Content/font.xnb</DestFile>
+  <DestTime>2020-03-28T04:58:04.7712922+02:00</DestTime>
+  <Importer>FontDescriptionImporter</Importer>
+  <ImporterTime>2020-03-27T06:57:04.5250085+02:00</ImporterTime>
+  <Processor>FontDescriptionProcessor</Processor>
+  <ProcessorTime>2020-03-27T06:57:04.5250085+02:00</ProcessorTime>
+  <Parameters>
+    <Key>PremultiplyAlpha</Key>
+    <Value>True</Value>
+  </Parameters>
+  <Parameters>
+    <Key>TextureFormat</Key>
+    <Value>Compressed</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

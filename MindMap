@@ -1,0 +1,71 @@
+===== MindMap =====
+25 tiles in row
+16 tiles in column
+
+Two players
+
+Player wins if destroy 'n' tanks
+Player lose if hit the base flag
+
+Enemies can leave mine that will hit only player
+Enemies with regenirated shield
+
+Tank
+	- fraction
+		-- no friendly fire
+	- color
+	- controller
+		-- AI
+		-- Player
+	- animation
+		-- movement (4)
+			:: depends on terrain
+		-- hit
+		-- invicibility
+	- movement
+		-- orientation
+		-- speed
+	- fire
+		-- type
+		-- couldown
+	- health
+	- texture
+
+Projectile
+	- animation
+	- direction
+	- damage
+
+Map
+	- animation ( water )
+	- opacity ( trees, fog )
+	- tile-size (16x16 px)
+		-- 1x1
+		-- 0.5x0.5
+		-- 0.5x1
+		-- 1x0.5
+		-- 0.5x0.25 ( for destruction )
+		-- 0.25x0.5
+	- destruction
+	- some block are collidable
+	- base
+
+Others
+	- font
+	- buttons
+	- power up
+		-- bomb icon (kills all enemies on map)
+		-- tank icon (+1 helth)
+		-- clocks icon (Stops all enemy tanks for a period of time)
+		-- star icon (Upgrades the tank's weapon; one star makes shots faster, two stars allows two simultaneous burst fire, and three stars allows the player to destroy steel walls)
+		-- shovel icon (Adds steel walls around the base for a period of time. It also repairs any prior damage on the wall, unless the human player destroys the steel wall with their highest level tank)
+		-- shield icon (makes player's tank invulnerable to attack for a period of time)
+	- amount of enemy tanks left
+	- sound
+		-- music
+		-- sound effects
+	- score
+		-- ranklist
+		-- upgrade player tank
+
+==========
