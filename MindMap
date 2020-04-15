@@ -25,7 +25,7 @@ Tank
 	- movement
 		-- orientation
 		-- speed
-	- fire
+	- fire x:346 y:102 h:3 w:4
 		-- type
 		-- couldown
 	- health

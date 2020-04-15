@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{905B6B3B-33B1-49FB-B691-AE30F88CB4F5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BattleCityRoyalJS-v3/Game1.cs">
+    <Files>
+      <File FileName="BattleCityRoyalJS-v3/Game1.cs" Line="85" Column="10" />
+      <File FileName="BattleCityRoyalJS-v3/Tank.cs" Line="97" Column="10" />
+      <File FileName="BattleCityRoyalJS-v3/Tile.cs" Line="38" Column="96" />
+      <File FileName="BattleCityRoyalJS-v3/Projectile.cs" Line="60" Column="30" />
+      <File FileName="BattleCityRoyalJS-v3/Map.cs" Line="43" Column="1" />
+      <File FileName="BattleCityRoyalJS-v3/Terraintile.cs" Line="7" Column="10" />
+      <File FileName="BattleCityRoyalJS-v3/ITerrainComponent.cs" Line="11" Column="1" />
+      <File FileName="BattleCityRoyalJS-v3/DestructableTerrainComponent.cs" Line="20" Column="40" />
+      <File FileName="BattleCityRoyalJS-v3/CollidableTerrainComponent.cs" Line="6" Column="77" />
+      <File FileName="BattleCityRoyalJS-v3/ICollidable.cs" Line="9" Column="6" />
+      <File FileName="BattleCityRoyalJS-v3/BrickTerrain.cs" Line="13" Column="10" />
+      <File FileName="BattleCityRoyalJS-v3/TerrainEntitiy.cs" Line="16" Column="1" />
+      <File FileName="BattleCityRoyalJS-v3/CollideData.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BattleCityRoyalJS-v3" expanded="True">
+            <Node name="BattleCityRoyalJS-v3.Desktop" expanded="True">
+              <Node name="Game1.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.BattleCityRoyalJS-v3.Desktop PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
