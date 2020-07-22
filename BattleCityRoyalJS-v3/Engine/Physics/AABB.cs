@@ -11,6 +11,12 @@ namespace BattleCityRoyalJS_v3.Desktop
         public Vector2 Min { get => min; set => min = value; }
         public Vector2 Max { get => max; set => max = value; }
 
+        public AABB()
+        {
+            min = Vector2.Zero;
+            max = Vector2.Zero;
+        }
+
         public AABB(Vector2 min, Vector2 max)
         {
             this.min = min;

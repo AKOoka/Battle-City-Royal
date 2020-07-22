@@ -36,28 +36,40 @@
     <Compile Include="Program.cs" />
     <Compile Include="Game1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TankPlayerController.cs" />
-    <Compile Include="Orientation.cs" />
-    <Compile Include="DebugDrawer.cs" />
-    <Compile Include="AABB.cs" />
-    <Compile Include="Tile.cs" />
-    <Compile Include="Tank.cs" />
-    <Compile Include="TankAIController.cs" />
-    <Compile Include="Animation.cs" />
-    <Compile Include="TankStupidAIController.cs" />
-    <Compile Include="TankController.cs" />
-    <Compile Include="Projectile.cs" />
-    <Compile Include="TankCanon.cs" />
-    <Compile Include="ProjectilePool.cs" />
-    <Compile Include="Map.cs" />
-    <Compile Include="Terraintile.cs" />
-    <Compile Include="ITerrainComponent.cs" />
-    <Compile Include="DestructableTerrainComponent.cs" />
-    <Compile Include="CollidableTerrainComponent.cs" />
-    <Compile Include="CollideData.cs" />
-    <Compile Include="ICollidable.cs" />
-    <Compile Include="BrickTerrain.cs" />
-    <Compile Include="TerrainEntitiy.cs" />
+    <Compile Include="Engine\Physics\AABB.cs" />
+    <Compile Include="Engine\Animation\Animation.cs" />
+    <Compile Include="Engine\Physics\CollideData.cs" />
+    <Compile Include="Engine\Physics\CollisionManager.cs" />
+    <Compile Include="Engine\Debug\DebugDrawer.cs" />
+    <Compile Include="Engine\Physics\ICollidable.cs" />
+    <Compile Include="Engine\Physics\CollidableTerrainComponent.cs" />
+    <Compile Include="Engine\Physics\CollisionDetectionSystem.cs" />
+    <Compile Include="Engine\IManager.cs" />
+    <Compile Include="Engine\ISystem.cs" />
+    <Compile Include="Engine\MM.cs" />
+    <Compile Include="Engine\IPool.cs" />
+    <Compile Include="Engine\PoolManager.cs" />
+    <Compile Include="Engine\ProjectilePool.cs" />
+    <Compile Include="Engine\SystemManager.cs" />
+    <Compile Include="BattleCity\Map\Map.cs" />
+    <Compile Include="BattleCity\Map\Tile.cs" />
+    <Compile Include="BattleCity\Map\Terraintile.cs" />
+    <Compile Include="BattleCity\Map\TerrainEntitiy.cs" />
+    <Compile Include="BattleCity\Projectile.cs" />
+    <Compile Include="BattleCity\Map\BrickTerrain.cs" />
+    <Compile Include="BattleCity\Map\ITerrainComponent.cs" />
+    <Compile Include="BattleCity\Map\DestructableTerrainComponent.cs" />
+    <Compile Include="BattleCity\Orientation.cs" />
+    <Compile Include="BattleCity\Tank.cs" />
+    <Compile Include="BattleCity\TankAIController.cs" />
+    <Compile Include="BattleCity\TankCanon.cs" />
+    <Compile Include="BattleCity\TankController.cs" />
+    <Compile Include="BattleCity\TankPlayerController.cs" />
+    <Compile Include="BattleCity\TankStupidAIController.cs" />
+    <Compile Include="Engine\Physics\AABBPool.cs" />
+    <Compile Include="Engine\Physics\SimplePool.cs" />
+    <Compile Include="Engine\DrawSystem.cs" />
+    <Compile Include="BattleCity\ProjectileSystem.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">
@@ -117,6 +129,14 @@
       <Link>MonoGame.Framework.dll.config</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Engine\" />
+    <Folder Include="BattleCity\" />
+    <Folder Include="Engine\Physics\" />
+    <Folder Include="Engine\Animation\" />
+    <Folder Include="Engine\Debug\" />
+    <Folder Include="BattleCity\Map\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
